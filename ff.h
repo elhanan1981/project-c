@@ -1,0 +1,1 @@
+void inter(char str[]);
