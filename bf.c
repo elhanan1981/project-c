@@ -1,5 +1,7 @@
+#include "ff.h"
 #include <stdio.h>
-#include <bf.h>
+#include <string.h>
+
 
 
 int skip(int pointer, char str[], int direction)
@@ -15,7 +17,7 @@ int skip(int pointer, char str[], int direction)
     }
 
     return pointer;
-};
+}
 void inter(char str[])
 {
     
